@@ -16,7 +16,7 @@ export function findFirstRepeated(gifts: number[]) {
 /** Alternativas que he encontrado 🧐 **/
 
 // 01 🏆 (alternativa con mayor puntaje: 330)
-function alternative01(gifts) {
+function alternative01(gifts: number[]) {
   const repeated = gifts.filter((gift, i) => gifts.indexOf(gift) !== i);
   return repeated.length > 0 ? repeated[0] : -1;
 }
