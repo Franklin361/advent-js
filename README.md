@@ -9,6 +9,8 @@ Este repositorio contiene los retos, **ya resultos**, del advent js de **midudev
 
 [^1]: Niveles de dificultad: 🟩 **Fácil** | 🟧 **Intermedio** | 🟥 **Dificil**
 
+</br>
+
 ## ¿Cómo ejecutar las pruebas? 🧪
 
 1. Primero tienes que clonar el repositorio
