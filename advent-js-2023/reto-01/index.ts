@@ -13,7 +13,7 @@ export function findFirstRepeated(gifts: number[]) {
   return -1;
 }
 
-/** Alternativas que he encontrado 🧐 **/
+/** Alternativas que he encontrado 🥴 **/
 
 // 01 🏆 (alternativa con mayor puntaje: 330)
 function alternative01(gifts: number[]) {
