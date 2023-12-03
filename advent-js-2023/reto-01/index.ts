@@ -28,7 +28,7 @@ function alternative02(gifts: number[]) {
 
 // 03
 function alternative03(gifts: number[]) {
-  const newGifts = {};
+  const newGifts: { [x: number]: number } = {};
 
   for (const gift of gifts) {
     if (newGifts[gift]) {

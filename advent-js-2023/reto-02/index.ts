@@ -18,14 +18,14 @@ export function manufacture(gifts: string[], materials: string): string[] {
 
 // 01 🏆
 // (280 pts) | 🚀 2904 ops/s | 🧐 Complejidad cognitiva: 2
-export function alternative01(gifts: string[], materials: string): string[] {
+function alternative01(gifts: string[], materials: string): string[] {
   const regexp = new RegExp(`[^${materials}]+`);
   return gifts.filter((gift) => !regexp.test(gift));
 }
 
 // 02
 // (280 pts) | 🚀 2282 ops/s | 🧐 Complejidad cognitiva: 2
-export function alternative02(gifts: string[], materials: string): string[] {
+function alternative02(gifts: string[], materials: string): string[] {
   const result: string[] = [];
   for (const gift of gifts) {
     let giftChars = gift;
@@ -41,7 +41,7 @@ export function alternative02(gifts: string[], materials: string): string[] {
 
 // 03
 // (280 pts) | 🚀 2260 ops/s | 🧐 Complejidad cognitiva: 2
-export function alternative03(gifts: string[], materials: string): string[] {
+function alternative03(gifts: string[], materials: string): string[] {
   const mate = materials.split('');
 
   return gifts.filter((g) => {
@@ -53,7 +53,7 @@ export function alternative03(gifts: string[], materials: string): string[] {
 
 // 04
 // (270 pts) | 🚀 2613 ops/s | 🧐 Complejidad cognitiva: 3
-export function alternative04(gifts: string[], materials: string): string[] {
+function alternative04(gifts: string[], materials: string): string[] {
   const result = gifts.filter((gift) => {
     return gift.split('').every((m) => materials.includes(m));
   });
