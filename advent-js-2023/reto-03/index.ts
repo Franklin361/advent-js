@@ -1,11 +1,7 @@
 // Reto #3 El elfo travieso
 
-/**
- * ✅ Mí solución, puntaje: 270
- * 🚀  2872 ops/s
- * 🧐 Complejidad cognitiva: 3
- */
-
+// ✅ Mí solución
+// (270 pts) | 🚀 2872 ops/s | 🧐 Complejidad cognitiva: 3
 export function findNaughtyStep(original: string, modified: string): string {
   const [main, secondary] =
     original.length < modified.length
