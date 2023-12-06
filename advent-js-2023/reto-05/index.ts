@@ -25,7 +25,7 @@ export function cyberReindeer(road: string, time: number): string[] {
 
 // 01 🏆
 // (160 pts) | 🚀 1741 ops/s | 🧐 Complejidad cognitiva: 4
-export const alternative01 = (road: string, time: number) => {
+const alternative01 = (road: string, time: number) => {
   let moves = [road];
   const _road = ('.' + road.slice(1)).replace(/\|/g, '*');
   let a = 0;
@@ -43,7 +43,7 @@ export const alternative01 = (road: string, time: number) => {
 
 // 02
 // (160 pts) | 🚀 1606 ops/s | 🧐 Complejidad cognitiva: 4
-export const alternative02 = (road: string, time: number) => {
+const alternative02 = (road: string, time: number) => {
   const SLED = 'S';
   const FLOOR = '.';
   const CLOSE = '|';
@@ -76,7 +76,7 @@ export const alternative02 = (road: string, time: number) => {
 
 // 03
 // (150 pts) | 🚀 1920 ops/s | 🧐 Complejidad cognitiva: 5
-export const alternative03 = (road: string, time: number) => {
+const alternative03 = (road: string, time: number) => {
   const r = [];
   let stepTime = 0;
   let pS = 0;
@@ -95,7 +95,7 @@ export const alternative03 = (road: string, time: number) => {
 
 // 04
 // (150 pts) | 🚀 1920 ops/s | 🧐 Complejidad cognitiva: 5
-export const alternative04 = (road: any, time: number) => {
+const alternative04 = (road: any, time: number) => {
   let result = [];
   let timePassed = 0;
   let pos = 0;
