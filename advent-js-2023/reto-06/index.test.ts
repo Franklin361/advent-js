@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import { maxDistance } from '.';
 
-describe('Reto #4 👉 Dale la vuelta a los paréntesis', () => {
+describe('Reto #6 👉 Los renos a prueba', () => {
   test('Expected return type is a number', () => {
     expect(typeof maxDistance('<<<')).toBe('number');
   });

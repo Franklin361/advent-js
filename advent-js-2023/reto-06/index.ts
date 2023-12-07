@@ -1,4 +1,4 @@
-// Reto #5: Los renos a prueba
+// Reto #6: Los renos a prueba
 
 // ✅ Mí solución
 // (280 pts) | 🚀 2814 ops/s | 🧐 Complejidad cognitiva: 2
