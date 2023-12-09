@@ -2,16 +2,17 @@
 
 Este repositorio contiene los retos, **ya resultos**, del advent js de **midudev**
 
-| Reto | Solución | Difficultad[^1] |
+| Reto                                          | Solución                                                                                               | Difficultad[^1] |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------- |
-| [#01](https://adventjs.dev/challenges/2023/1) | [Ver Solución #01](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-01/index.ts) | 🟩 |
-| [#02](https://adventjs.dev/challenges/2023/2) | [Ver Solución #02](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-02/index.ts) | 🟩 |
-| [#03](https://adventjs.dev/challenges/2023/3) | [Ver Solución #03](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-03/index.ts) | 🟩 |
-| [#04](https://adventjs.dev/challenges/2023/4) | [Ver Solución #04](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-04/index.ts) | 🟨 |
-| [#05](https://adventjs.dev/challenges/2023/5) | [Ver Solución #05](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-05/index.ts) | 🟨 |
-| [#06](https://adventjs.dev/challenges/2023/6) | [Ver Solución #06](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-06/index.ts) | 🟩 |
-| [#07](https://adventjs.dev/challenges/2023/7) | [Ver Solución #07](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-07/index.ts) | 🟩 |
-| [#08](https://adventjs.dev/challenges/2023/8) | [Ver Solución #08](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-08/index.ts) | 🟨 |
+| [#01](https://adventjs.dev/challenges/2023/1) | [Ver Solución #01](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-01/index.ts) | 🟩              |
+| [#02](https://adventjs.dev/challenges/2023/2) | [Ver Solución #02](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-02/index.ts) | 🟩              |
+| [#03](https://adventjs.dev/challenges/2023/3) | [Ver Solución #03](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-03/index.ts) | 🟩              |
+| [#04](https://adventjs.dev/challenges/2023/4) | [Ver Solución #04](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-04/index.ts) | 🟨              |
+| [#05](https://adventjs.dev/challenges/2023/5) | [Ver Solución #05](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-05/index.ts) | 🟨              |
+| [#06](https://adventjs.dev/challenges/2023/6) | [Ver Solución #06](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-06/index.ts) | 🟩              |
+| [#07](https://adventjs.dev/challenges/2023/7) | [Ver Solución #07](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-07/index.ts) | 🟩              |
+| [#08](https://adventjs.dev/challenges/2023/8) | [Ver Solución #08](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-08/index.ts) | 🟩              |
+| [#09](https://adventjs.dev/challenges/2023/9) | [Ver Solución #09](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-09/index.ts) | 🟩              |
 
 [^1]: Niveles de dificultad: 🟩 **Fácil** | 🟨 **Medio** | 🟧 **Dificil**
 

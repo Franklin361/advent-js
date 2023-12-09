@@ -2,7 +2,7 @@ import { describe, expect, test } from 'vitest';
 import { organizeGifts } from '.';
 
 describe('Reto #8 👉 Ordenando el almacén', () => {
-  test('Expected return type is a number', () => {
+  test('Expected return type is a string', () => {
     expect(typeof organizeGifts('76a11b')).toBe('string');
   });
 

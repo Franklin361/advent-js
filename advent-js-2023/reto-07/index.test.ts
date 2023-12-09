@@ -2,7 +2,7 @@ import { describe, expect, test } from 'vitest';
 import { drawGift } from '.';
 
 describe('Reto #7 👉 Las cajas en 3D', () => {
-  test('Expected return type is a number', () => {
+  test('Expected return type is a string', () => {
     expect(typeof drawGift(5, 'x')).toBe('string');
   });
 
