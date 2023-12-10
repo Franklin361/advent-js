@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import { adjustLights } from '.';
 
-describe('Reto #8 👉 Ordenando el almacén', () => {
+describe('Reto #9 👉 Alterna las luces', () => {
   test('Expected return type is a number', () => {
     expect(typeof adjustLights([])).toBe('number');
   });
