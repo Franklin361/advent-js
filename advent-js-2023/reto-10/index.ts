@@ -21,7 +21,7 @@ export function createChristmasTree(ornaments: string, height: number): string {
 
 /** Alternativas que he encontrado 🥴 **/
 
-// 01
+// 01 🏆
 // (190 pts) | 🚀 1684 ops/s | 🧐 Complejidad cognitiva: 1
 function alternative01(ornaments: string, height: number): string {
   const fs = ' '.repeat(height - 1);
