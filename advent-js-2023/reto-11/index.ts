@@ -29,7 +29,7 @@ export function getIndexsForPalindrome(word: string): number[] | null {
 
 // 01 🏆
 // (90 pts) | 🚀 294 ops/s | 🧐 Complejidad cognitiva: 1
-export function alternative01(word: string) {
+function alternative01(word: string) {
   const _letters = [...word];
   const palindrome = word === [..._letters].reverse().join('');
 
@@ -66,7 +66,7 @@ export function alternative01(word: string) {
 
 // 02
 // (90 pts) | 🚀 107 ops/s | 🧐 Complejidad cognitiva: 1
-export function alternative02(word: string) {
+function alternative02(word: string) {
   let res: any = null;
   for (const a of Array.from({ length: word.length }).keys()) {
     for (const b of Array.from({ length: word.length }).keys()) {
