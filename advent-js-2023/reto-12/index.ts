@@ -69,7 +69,7 @@ function alternative01(original: string, copy: string): boolean {
 
 // 02
 // (170 pts) | 🚀 1981 ops/s | 🧐 Complejidad cognitiva: 2
-export function alternative02(original: string, copy: string): boolean {
+function alternative02(original: string, copy: string): boolean {
   let i = -1;
   let res = true;
 

@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
 import { calculateTime } from '.';
 
-describe('Reto #12 👉 Calculando el tiempo', () => {
+describe('Reto #13 👉 Calculando el tiempo', () => {
   test('Expected return type is a string', () => {
     expect(typeof calculateTime(['05:20:00'])).toBe('string');
   });
