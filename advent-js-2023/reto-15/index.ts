@@ -31,8 +31,32 @@ export function autonomousDrive(store: string[], movements: string[]) {
 /** Alternativas que he encontrado 🥴 **/
 
 // 01 🏆
-// (120 pts) | 🚀 1426 ops/s | 🧐 Complejidad cognitiva: 1
+// (190 pts) | 🚀 1912 ops/s | 🧐 Complejidad cognitiva: 1
 function alternative01(store: string[], movements: string[]) {
+  const w = store[0].length;
+  const mi = store.join('').indexOf('!');
+  let si = (mi / w) | 0;
+  let sj = mi % w;
+
+  store[si] = store[si].substring(0, sj) + '.' + store[si].substring(sj + 1);
+
+  for (let movement of movements) {
+    const nextI = si - +(movement === 'U') + +(movement === 'D');
+    const nextJ = sj - +(movement === 'L') + +(movement === 'R');
+    const canMove = +(store[nextI]?.[nextJ] === '.');
+
+    si = [si, nextI][canMove];
+    sj = [sj, nextJ][canMove];
+  }
+
+  store[si] = store[si].substring(0, sj) + '!' + store[si].substring(sj + 1);
+
+  return store;
+}
+
+// 02
+// (120 pts) | 🚀 1426 ops/s | 🧐 Complejidad cognitiva: 1
+function alternative02(store: string[], movements: string[]) {
   let robotX = -1;
   let robotY = -1;
 
@@ -93,9 +117,9 @@ function alternative01(store: string[], movements: string[]) {
   return store;
 }
 
-// 02
+// 03
 // (240 pts) | 🚀 2080 ops/s | 🧐 Complejidad cognitiva: 4
-function alternative02(store: string[], movements: string[]) {
+function alternative03(store: string[], movements: string[]) {
   let row = store.findIndex((line) => line.includes('!'));
   let col = store[row].indexOf('!');
 
