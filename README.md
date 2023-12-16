@@ -16,6 +16,7 @@ Este repositorio contiene los retos, **ya resultos**, del advent js de **midudev
 | [#10](https://adventjs.dev/challenges/2023/10) | [Ver Solución #10](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-10/index.ts) | 🟩              |
 | [#11](https://adventjs.dev/challenges/2023/11) | [Ver Solución #11](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-11/index.ts) | 🟨              |
 | [#12](https://adventjs.dev/challenges/2023/12) | [Ver Solución #12](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-12/index.ts) | 🟨              |
+| [#13](https://adventjs.dev/challenges/2023/13) | [Ver Solución #13](https://github.com/Franklin361/advent-js/blob/main/advent-js-2023/reto-13/index.ts) | 🟩              |
 
 [^1]: Niveles de dificultad: 🟩 **Fácil** | 🟨 **Medio** | 🟧 **Dificil**
 
